@@ -1,0 +1,471 @@
+/*NOTE:
+    This css file has completely been designed by me and I have not used any customized theme
+    from others to build this.
+
+    However you are free to edit this code and customise it as your own, do change the HTML in that
+    case.
+
+    Inappropriate use of the files are by no means encouraged by me.
+
+    THANK YOU and please do review my work at COURSERA :)
+ */
+
+body {
+    font-family: "Cambria Math", Tahoma;
+    padding: 0;
+    margin: 0;
+    background: -webkit-linear-gradient(to right, #FFCC80, #FFA726);
+    background: -moz-linear-gradient(to right, #FFCC80, #FFA726);
+    background: -o-linear-gradient(to right, #FFCC80, #FFA726);
+    background: linear-gradient(to right, #FFCC80, #FFA726);
+}
+
+
+/* These rules are used as for designing the header page */
+.nav-color {
+    background-color: rgba(0, 0, 0, 0.0) !important;
+}
+
+.navbar-container {
+    padding: 1%;
+}
+
+.brand-edit {
+    font-size: 200%;
+    transition: color ease-in-out 0.5s;
+}
+
+.brand-edit:hover {
+    color: #ffffff;
+}
+#widenMe {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link-edit {
+    color: #ffd8b5 !important;
+    transition: color ease-in-out 0.5s;
+    font-weight: bold;
+    font-size: 120%;
+
+}
+
+.nav-link-edit:hover {
+    color: #ffa585 !important;
+}
+
+header {
+    background: url("../images/backgroundDogs.jpg") fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.edit-mobile-nav {
+    background-color: transparent;
+}
+header h3 {
+    color: #ffffff;
+}
+.header-content {
+    padding: 10%;
+    text-align: center;
+}
+.header-text {
+    font-size: 50px;
+    text-shadow: 2px 2px 2px #250012;
+    padding-bottom: 5%;
+    font-weight: 600;
+    color: #ffffff;
+    transition: text-shadow ease-in-out 0.5s;
+}
+
+.header-text:hover {
+    text-shadow: none;
+}
+
+
+.lift-me-up {
+    position: relative;
+    top: -1%;
+    padding-bottom: 4%;
+}
+.editButton {
+    margin-left: 25%;
+    margin-bottom: 20%;
+    color: #ffffff;
+    background-color: rgba(255,255,255,0.2);
+    border: 1px solid transparent;
+    border-radius: 45px;
+    padding: 3% 10%;
+    font-size: 1.5em;
+    transition: background-color ease-in-out 1s;
+}
+
+.editButton:hover {
+    background-color: transparent;
+}
+
+/*These rules will design the dog article of my web page */
+
+article:first-child {
+    color: #ffccdf;
+}
+.dogs-background-color {
+    background: -webkit-linear-gradient(to bottom, #a51f50, #ff4384);
+    background: -moz-linear-gradient(to bottom, #a51f50, #ff4384);
+    background: -o-linear-gradient(to bottom, #a51f50, #ff4384);
+    background: linear-gradient(to bottom, #a51f50, #ff4384);
+}
+.dog-article-background {
+    background: url("../images/beagle-dog.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 2px 3px 2px #000000;
+    transition: box-shadow ease-in-out 0.5s;
+    padding: 0;
+    margin: 0;
+}
+
+.dog-article-background:hover {
+    box-shadow: 0px 0px 0px 0px #000000;
+}
+
+h4 {
+    padding-top: 5%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-size: 400%;
+    font-weight: 600;
+}
+
+.italiciseMe {
+    font-style: italic;
+    font-size: 120%;
+    line-height: 3em;
+    position: relative;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.expand-dog-background {
+    box-sizing: border-box;
+    padding-top: 48%;
+    padding-bottom: 48%;
+    width: 100%;
+    padding-left: 3%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.001);
+    transition: color ease-in-out 1s, background-color ease-in 0.3s;
+    color:transparent;
+    border: none;
+}
+
+.expand-dog-background:hover {
+    color: #ffccdf;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.dog-content {
+    padding-bottom: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    line-height: 2em;
+    font-size: 110%;
+}
+
+.button-content {
+    font-size: 150%;
+}
+
+/*these rules will apply to the dog images*/
+#dog-img-background {
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+.dog-images-background {
+    padding: 3% 5%;
+}
+
+.dog-image-box-layout {
+    padding-right: 0.01%;
+    padding-bottom: 1%;
+    margin-right: 0;
+}
+
+/*Cat content starts here */
+
+.color-cats {
+    color: #d3c6ff;
+}
+.cats-background-color {
+    background: -webkit-linear-gradient(to bottom, #5b09a5, #5e42ff);
+    background: -moz-linear-gradient(to bottom, #5b09a5, #5e42ff);
+    background: -o-linear-gradient(to bottom, #5b09a5, #5e42ff);
+    background: linear-gradient(to bottom, #5b09a5, #5e42ff);
+}
+
+.cat-article-background {
+    background: url("../images/cat-wallpaper.jpg");
+    background-size: cover;
+    background-position: right;
+    box-shadow: 5px 5px 5px 0px #000000;
+    transition: box-shadow ease-in-out 0.5s;
+    padding: 0;
+    margin: 0;
+}
+
+.cat-article-background:hover {
+    box-shadow: 0px 0px 0px 0px #001c0e;
+}
+
+.expand-cat-background {
+    box-sizing: border-box;
+    padding-top: 48%;
+    padding-bottom: 48%;
+    width: 100%;
+    padding-left: 3%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.001);
+    transition: color ease-in-out 1s, background-color ease-in 0.3s;
+    color:transparent;
+    border: none;
+}
+
+.expand-cat-background:hover {
+    color: #c3e3ff;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.cat-content {
+    padding-bottom: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    line-height: 2em;
+    font-size: 110%;
+}
+/*cats images styling done here */
+#cat-img-background {
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+.cat-images-background {
+    padding: 3% 5%;
+}
+
+.cat-image-box-layout {
+    padding-right: 0.01%;
+    padding-bottom: 1%;
+    margin-right: 0;
+}
+/*Plants content starts here */
+.color-plants {
+    color: #a5ffcd;
+}
+
+.plants-background-color {
+    background: -webkit-linear-gradient(to bottom, #00662c, #3c783c);
+    background: -moz-linear-gradient(to bottom, #00662c, #3c783c);
+    background: -o-linear-gradient(to bottom, #00662c, #3c783c);
+    background: linear-gradient(to bottom, #00662c, #3c783c);
+}
+
+.plants-content {
+    padding-bottom: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    line-height: 2em;
+    font-size: 110%;
+}
+
+.plant-article-background {
+    background: url("../images/plants wallpapers.jpg");
+    background-size: cover;
+    background-position: inherit;
+    box-shadow: 1px 2px 3px 2px #000000;
+    z-index: 1000;
+    transition: box-shadow ease-in-out 0.5s;
+    padding: 0;
+    margin: 0;
+}
+
+.plant-article-background:hover {
+    box-shadow: 0px 0px 0px 0px #000000;
+}
+
+.expand-plant-background {
+    box-sizing: border-box;
+    padding-top: 48%;
+    padding-bottom: 48%;
+    width: 100%;
+    padding-left: 3%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.001);
+    transition: color ease-in-out 1s, background-color ease-in 0.3s;
+    color:transparent;
+    border: none;
+}
+
+.expand-plant-background:hover {
+    color: #a5ffcd;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*plant images styling done here */
+#plant-img-background {
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+.plant-images-background {
+    padding: 3% 5%;
+}
+
+.plant-image-box-layout {
+    padding-right: 0.01%;
+    padding-bottom: 1%;
+    margin-right: 0;
+}
+/*styling for the sceneries start here */
+aside h4 {
+    font-size: 450%;
+}
+
+.scenery-background {
+    background: url("../images/forest-natural-scenery.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 2px 4px 2px #000000;
+    text-align: center;
+    background-color: rgba(0,0,0,0.004);
+    color: #ffffff;
+}
+
+.scenery-text {
+    padding-top: 4%;
+    padding-bottom: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.scenery-content{
+    padding-top: 2%;
+    padding-bottom: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    line-height: 2em;
+    font-size: 120%;
+}
+
+.scenery-button {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 2% 3% 2% 3%;
+    font-size: 115%;
+    font-weight: 600;
+    border: none;
+    border-radius: 45px;
+    transition: background-color ease-in-out 0.5s, color ease-in-out 0.5s;
+    color:#000000;
+}
+
+.scenery-button:hover {
+    background-color: rgba(0, 60, 30, 0.4);
+    color: #06ff8e;
+}
+
+/*These rules apply to the scenery images */
+#scenery-img-background {
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+.scenery-images-background {
+    padding: 3% 5%;
+}
+
+.scenery-image-box-layout {
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/*These rules edit the images in general*/
+.img-edit {
+    -moz-box-shadow: 0 0 10px #bb1e31;
+    -webkit-box-shadow: 0 0 10px #bb1e31;
+    -o-box-shadow: 0 0 10px #bb1e31;
+    box-shadow: 0 0 10px #bb1e31;
+    transition: box-shadow ease-in-out 0.3s;
+
+}
+
+.img-edit:hover {
+    -moz-box-shadow: 0 0 0 #bb1e31;
+    -webkit-box-shadow: 0 0 0 #bb1e31;
+    -o-box-shadow: 0 0 0 #bb1e31;
+    box-shadow: 0 0 0 #bb1e31;
+}
+/*These rules will style the footer of my page */
+.footer-styler {
+    background-color: #252525;
+    margin-top: 3%;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 4%;
+}
+
+.footer-icon-shift {
+    padding-top: 3%;
+}
+
+.facebook {
+    margin-right: 3%;
+    color: #ffffff;
+    transition: color ease-in-out 0.5s;
+}
+
+.facebook:hover {
+    color: #2b669a;
+}
+
+.linked-in {
+    margin-right: 3%;
+    color: #ffffff;
+    transition: color ease-in-out 0.5s;
+}
+
+.linked-in:hover {
+    color: #0077B5;
+}
+
+.pinterest {
+    margin-right: 3%;
+    color: #ffffff;
+    transition: color ease-in-out 0.5s;
+}
+
+.pinterest:hover {
+    color: #c92228;
+}
+
+.twitter {
+    margin-right: 3%;
+    color: #ffffff;
+    transition: color ease-in-out 0.5s;
+}
+
+.twitter:hover {
+    color: #0084b4;
+}
+

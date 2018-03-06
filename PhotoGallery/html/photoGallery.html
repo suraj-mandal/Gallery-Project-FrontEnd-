@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Gallery</title>
+    <link href="" rel="icon" type="icon.png"/>
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/bootstrap.js" ></script>
+    <link href="../css/customiseMe.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="../js/myCustomization.js"></script>
+</head>
+
+<body>
+
+    <main class="container-fluid" id="widenMe">
+        <header class="container-fluid">
+            <nav class="nav navbar-inverse nav-color ">
+                <div class="container-fluid navbar-container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle edit-mobile-nav" data-toggle="collapse" data-target="#myNav">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand brand-edit">Suraj's Gallery</a>
+                    </div>
+                    <div class="collapse navbar-collapse navbar-right" id="myNav">
+                        <ul class="nav navbar-nav" >
+                            <li><a href="#jump-to-dogs" class="nav-link-edit">Dogs</a></li>
+                            <li><a href="#jump-to-cats" class="nav-link-edit">Cats</a></li>
+                            <li><a href="#jump-to-plants" class="nav-link-edit">Plants</a></li>
+                            <li><a href="#jump-to-scenery" class="nav-link-edit">Sceneries</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="header-content">
+                <h1 class="header-text">Welcome to My Gallery</h1>
+                <h3>Let's have some magical tour of my magical world!</h3>
+            </div>
+            <div class="container">
+                <div class="row lift-me-up ">
+                    <div class="col-xs-12 col-sm-3">
+                        <button type="button" class="editButton">Dogs</button>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <button type="button" class="editButton">Cats</button>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <button type="button" class="editButton">Plants</button>
+                    </div>
+                    <div class="col-xs-12 col-sm-3">
+                        <button type="button" class="editButton">Sceneries</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="container-fluid">
+            <article class="row dogs-background-color">
+                <div class="col-sm-8 col-xs-12">
+                    <h4 id="jump-to-dogs">Dogs</h4>
+                    <h5 class="italiciseMe">Money can buy you a fine dog, but only love can make him wag his tail. ... </h5>
+                    <p class="dog-content">
+                        Dogs are considered as one of my favourite pets. Not a single day passes without me playing and fondling with my
+                        pet dog, Sheroo. He is my best friend, and I do love him the most. But not only did he choose me as his friend,
+                        he has even become friends with the street dogs of our colony, as a result, I have made even more friends.
+                        I do love all of them from the core of my heart as they are the best part of my family. Thanks Sheroo, I dedicate
+                        this webpage to you, for being the most awesome part of my life!
+
+                        You owe me one :)
+                    </p>
+                </div>
+                <div class="col-sm-4 col-xs-12 dog-article-background">
+                    <button type="button" class="expand-dog-background button-content"
+                            onclick="showDogImages()">Dogify Me for my photos</button>
+                </div>
+            </article>
+            <div class="container-fluid" id="dog-img-background">
+                <figure class="container-fluid dog-images-background">
+                    <div class="row">
+                        <div class="col-sm-4 col-xs-12 dog-image-box-layout">
+                            <img class="img-responsive img-rounded img-edit" src="https://i.ytimg.com/vi/SfLV8hD7zX4/maxresdefault.jpg"
+                                 alt="cute golden retriever wagging his tail"/>
+                        </div>
+                        <div class="col-sm-4 col-xs-12 dog-image-box-layout">
+                            <img class="img-responsive img-rounded img-edit" src="http://s1.1zoom.me/big0/650/340814-blackangel.jpg"
+                                 alt="cute dog sleeping"/>
+                        </div>
+                        <div class="col-sm-4 col-xs-12 dog-image-box-layout">
+                            <img class="img-responsive img-rounded img-edit" src="http://s1.1zoom.me/big0/215/277927-alexfas01.jpg"
+                                 alt="pug staring at biscuits"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 col-xs-12 dog-image-box-layout">
+                            <img class="img-responsive img-rounded img-edit" src="http://s1.1zoom.me/b4647/175/Christmas_Dogs_Black_background_Snout_Winter_hat_538701_1280x720.jpg"
+                                 alt="christmas pup"/>
+                        </div>
+                        <div class="col-sm-4 col-xs-12 dog-image-box-layout">
+                            <img class="img-responsive img-rounded img-edit" src="http://s1.1zoom.me/b4156/626/Dogs_Autumn_Siberian_Husky_Foliage_536937_1280x720.jpg"
+                                 alt="husky sitting majestically"/>
+                        </div>
+                        <div class="col-sm-4 col-xs-12 dog-image-box-layout">
+                            <img class="img-responsive img-rounded img-edit" src="http://www.hd-freeimages.com/download/beagle-dog-with-babies-hd-wallpapers-1366x768/"
+                                 alt="the dog family"/>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <article class="row color-cats cats-background-color">
+                <div class="col-sm-4 cat-article-background">
+                    <button type="button" class="expand-cat-background button-content"
+                            onclick="showCatImages()">Catify Me for my photos</button>
+                </div>
+                <div class="col-sm-8 col-xs-12">
+                    <h4 id="jump-to-cats">Cats</h4>
+                    <h5 class="italiciseMe">Cats are intended to teach us that not everything in nature has a function!!</h5>
+                    <p class="cat-content">
+                        Cats!!! Well cats were once a nuisance for me, but nowadays they too are finding a place on my friend list.
+                        And all these happened with the coming of my best friend Sheroo. But that was an irony though, since the day he made my home his home, the first friends he made were
+                        the neighbourhood cats, for he found those meow meows! to be a familiar cacophony is a "still going to be
+                        familiar" land. So, I too somehow had to listen to his silent request and befriend with the cats. Believe me,
+                        that was the coolest decision I made, and now I am a much more closer friend to them than Sheroo.
+
+                        I owe you one :)
+                    </p>
+                </div>
+            </article>
+            <div class="container-fluid" id="cat-img-background">
+                <figure class="container-fluid cat-images-background">
+                    <div class="row">
+                        <div class="col-sm-4 col-xs-12 cat-image-box-layout">
+                            <img class="img-responsive img-rounded img-edit" src="http://cat-wallpaper.ambientcat.com/wallpapers-1280-720/Maine-Coon-Silver-kitten-What-spectacular-breed-of-cat-has-tufted-ears-235.jpg"
+                                 alt="cat playing"/>
+                        </div>
+                        <div class="col-sm-4 col-xs-12 cat-image-box-layout">
+                            <img class="img-responsive img-rounded img-edit" src="http://maine-coon-kitten.my-coon.com/Background-1280-720/Stupendous-Maine-Coon-kitten-61.jpg"
+                                 alt="Maine Coon kitten"/>
+                        </div>
+                        <div class="col-sm-4 col-xs-12 cat-image-box-layout">
+                            <img class="img-responsive img-rounded img-edit" src="http://wallpaperstock.net/cute-orange-cat_wallpapers_33778_1280x720.jpg"
+                                 alt="Kitten staring at gaze"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 col-xs-12 cat-image-box-layout">
+                            <img class="img-responsive img-rounded img-edit" src="http://s1.1zoom.me/big0/613/368800-blackangel.jpg"
+                                 alt="cat surrounded by flowers"/>
+                        </div>
+                        <div class="col-sm-4 col-xs-12 cat-image-box-layout">
+                            <img class="img-responsive img-rounded img-edit" src="http://data.1freewallpapers.com/download/fat-cat-1280x720.jpg"
+                                 alt="fat cat"/>
+                        </div>
+                        <div class="col-sm-4 col-xs-12 dog-image-box-layout">
+                            <img class="img-responsive img-rounded img-edit" src="http://data.1freewallpapers.com/download/white-cat-1280x720.jpg"
+                                 alt="cute cat looking at you"/>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <article class="row color-plants plants-background-color">
+                <div class="col-xs-12 col-sm-8">
+                    <h4 id="jump-to-plants">Plants</h4>
+                    <h5 class="italiciseMe">Don't judge each day by the harvest you reap but by the seeds that you plant!!</h5>
+                    <p class="plants-content">
+                        We have a flower garden at our home. Once there was a lawn in the side of our home. It was a vast space which was left just
+                        like that other than parking. I planned myself and laid a flower garden of my own. I have all seasonal flowers in my garden.
+                        since I water them I take care of them like my little ones. I love to look at the flowers that are fresh after a new bloom.
+                        Every day as soon as I wake up I go to my garden and get some fresh air. The floral smell that enters inside me while
+                        I inhale is such a nice experience.
+                    </p>
+                </div>
+                <div class=" col-sm-4 col-xs-12 plant-article-background">
+                    <button type="button" class="expand-plant-background button-content"
+                            onclick="showPlantImages()">Plantify Me for my photos</button>
+                </div>
+            </article>
+            <div class="container-fluid" id="plant-img-background">
+                <figure class="container-fluid plant-images-background">
+                    <div class="row">
+                        <div class="col-sm-4 col-xs-12 plant-image-box-layout">
+                            <img class="img-responsive img-rounded img-edit" src="http://www.bhmpics.com/download/blue_flowers_petals_plant_nature-1280x720.jpg"
+                                 alt="blue flower petals"/>
+                        </div>
+                        <div class="col-sm-4 col-xs-12 plant-image-box-layout">
+                            <img class="img-responsive img-rounded img-edit" src="http://www.cerespm.com/wp-content/uploads/2014/03/wallpapers-marihuana-wise-com-marijuana-plants-1280x720.jpg"
+                                 alt="marijuana"/>
+                        </div>
+                        <div class="col-sm-4 col-xs-12 plant-image-box-layout">
+                            <img class="img-responsive img-rounded img-edit" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/China_Rose_plant.jpg/1024px-China_Rose_plant.jpg"
+                                 alt="china rose plant"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 col-xs-12 plant-image-box-layout">
+                            <img class="img-responsive img-rounded img-edit" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Plankton_plant_on_coffee_Tree.jpg/1280px-Plankton_plant_on_coffee_Tree.jpg"
+                                 alt="plankton plant on coffee tree"/>
+                        </div>
+                        <div class="col-sm-4 col-xs-12 plant-image-box-layout">
+                            <img class="img-responsive img-rounded img-edit" src="https://s-media-cache-ak0.pinimg.com/originals/dd/c1/6b/ddc16be8db9708f0d0920cba41c53e62.jpg"
+                                 alt="blue flowers"/>
+                        </div>
+                        <div class="col-sm-4 col-xs-12 plant-image-box-layout">
+                            <img class="img-responsive img-rounded img-edit" src="http://www.bhmpics.com/download/tulips_field_meadow_nature-1280x720.jpg"
+                                 alt="tulips focused"/>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <aside class="row scenery-background">
+                <div class="col-xs-12 scenery-text">
+                    <h4 id="jump-to-scenery">Sceneries</h4>
+                    <p class="scenery-content">
+                        Nature is very precious for us.
+                        the nature is derived from the Latin word natura which literally means birth.
+                        It consist of geology and wildlife.
+                        we get many things from nature.
+                        plants gives us medicines, wood,fruits,vegetables,rubber,cotton etc and most importantly they take carbon dioxide from the atmosphere and releases oxygen into the environment which is very important for for survival.
+                        we also get water to drink.
+                        we can get tension free by seeing the beauty of nature.
+                        Also we get food items from wildlife like milk,egg,meat etc.
+                        All life is dependent on nature.
+                        So we take to conserve nature and make sure not to harm it.
+
+                    </p>
+                    <button class="scenery-button" onclick="showSceneryImages()">Open your Magic</button>
+                </div>
+            </aside>
+            <div class="container-fluid" id="scenery-img-background">
+                <figure class="container-fluid scenery-images-background">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-push-2 col-sm-8 scenery-image-box-layout">
+                            <img class="img-responsive img-rounded img-edit"
+                                 src="http://s1.1zoom.me/big0/642/Denmark_Scenery_Sunrises_and_sunsets_Rivers_Sky_513662_1280x720.jpg"
+                                 alt="farm at evening"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-push-2 col-sm-8 scenery-image-box-layout">
+                            <img class="img-responsive img-rounded img-edit"
+                                 src="https://www.artsfon.com/pic/201502/1280x720/artsfon.com-56827.jpg"
+                                 alt="beautiful banyan tree"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-push-2 col-sm-8 scenery-image-box-layout">
+                            <img class="img-responsive img-rounded img-edit"
+                                 src="http://s1.1zoom.net/big0/977/Mountains_Scenery_473520.jpg"
+                                 alt="hillside lake"/>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+        </section>
+        <footer class="container-fluid footer-styler">
+            <div class="row">
+                <div class="col-sm-push-4 col-xs-4 footer-icon-shift">
+                    <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-official facebook" style="font-size:32px"></i></a>
+                    <a href="https://www.linkedin.com/in/suraj-mandal-747650125" target="_blank"><i class="fa fa-linkedin-square linked-in" style="font-size:32px"></i></a>
+                    <a href="https://in.pinterest.com/surajmandal738/" target="_blank"><i class="fa fa-pinterest-square pinterest" style="font-size:32px"></i></a>
+                    <a href="https://twitter.com/twitter?lang=en" target="_blank"><i class="fa fa-twitter-square twitter" style="font-size:32px"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <p>Made by Suraj Mandal &copy; All rights reserved</p>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
